@@ -6,7 +6,7 @@ from scipy.special import gammaln
 from pathlib import Path
 
 
-# Data containers (mimic fd.errorModel.μ, etc.)
+# Data containers 
 @dataclass
 class TParams:
     nu: float
